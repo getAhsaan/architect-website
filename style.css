@@ -76,6 +76,7 @@ Header Section Styles
     border-radius: 8px;
     padding: 20px 25px;
     border: none;
+    width: 180px;
 }
 
 .btn a {
@@ -84,8 +85,59 @@ Header Section Styles
     color: #FFFFFF;
     text-decoration: none;
 }
+
 .banner-image img {
     width: 100%;
     margin-top: 50px;
 
+}
+
+/******************** 
+Main Section Styles
+  ******************/
+
+/* Feature Top Section  */
+.feature-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 70px;
+}
+
+.feature-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    gap: 30px;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.feature-title .of-our {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.feature-title .features {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
 }
