@@ -10,3 +10,33 @@ body {
     box-sizing: border-box;
 }
 
+/********************** 
+Header Section Styles
+ *********************/
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* Navbar Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-item ul {
+    display: flex;
+    gap: 40px;
+}
+.navbar-item ul li {
+list-style-type: none;
+}
+.navbar-item ul li a {
+text-decoration: none;
+font-weight: 500;
+font-size: 18px;
+color: #424242;
+}
