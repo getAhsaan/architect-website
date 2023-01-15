@@ -40,6 +40,9 @@ Header Section Styles
     font-size: 45px;
     color: #131313;
 }
+.navbar-title h2:hover {
+   color: #FF900E;
+}
 
 .navbar-item ul {
     display: flex;
@@ -55,6 +58,10 @@ Header Section Styles
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+}
+.navbar-item ul li a:hover {
+   color: #FF900E;
+   transition: 0.2s;
 }
 
 /* Hero Section  */
@@ -85,6 +92,10 @@ Header Section Styles
     padding: 20px 25px;
     border: none;
     width: 180px;
+}
+
+.btn:hover {
+    opacity: 0.7;
 }
 
 .btn a {
@@ -185,6 +196,7 @@ Main Section Styles
     margin-top: 20px;
     padding: 30px 40px 30px 30px;
 }
+
 
 .card h4 {
     font-weight: 600;
@@ -342,6 +354,7 @@ Main Section Styles
 
 .sponsor-item-wrap img:hover {
     filter: grayscale(0);
+    transition: 0.2s;
 
 }
 
@@ -358,4 +371,78 @@ Main Section Styles
     text-align: center;
     color: #424242;
     padding: 38px 0;
+}
+
+
+
+.contact-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+/* Social Section  */
+.social-media {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53px;
+    color: #131313;
+
+}
+
+.fa-brands {
+    padding: 20px;
+    font-size: 50px;
+}
+
+.fa-brands:hover {
+    color: #FF900E;
+    transition: 0.5s;
+
+}
+
+
+/* Form Section  */
+
+.contact-form h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FF900E;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+    width: 180px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.7;
+}
+
+.form-wrap {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
