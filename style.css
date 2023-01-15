@@ -268,10 +268,26 @@ Main Section Styles
     text-align: center;
 }
 
+.fact-card:hover {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px 40px;
+    text-align: center;
+    background: #FF900E;
+    transition: 0.5s;
+}
+
+.fact-card:hover h3,
+.fact-card:hover p {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
 .fact-card img {
     width: 45.22px;
     height: 45.22px;
 }
+
 
 .fact-card h3 {
     font-weight: 600;
@@ -286,7 +302,7 @@ Main Section Styles
 }
 
 /* Sponsor Section  */
-.sponsor {
+.sponsor-section {
     margin-top: 180px;
 }
 
@@ -318,11 +334,28 @@ Main Section Styles
     margin-top: 50px;
 
 }
+
 .sponsor-item-wrap img {
- filter: grayscale(1);
+    filter: grayscale(1);
 
 }
-.sponsor-item-wrap img:hover {
- filter: grayscale(0);
 
+.sponsor-item-wrap img:hover {
+    filter: grayscale(0);
+
+}
+
+/* Footer Section  */
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding: 38px 0;
 }
