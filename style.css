@@ -32,6 +32,7 @@ Header Section Styles
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-title h2 {
@@ -171,6 +172,7 @@ Main Section Styles
 .feature-bottom-description {
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
     color: #727272;
     margin-top: 24px;
 }
@@ -195,6 +197,7 @@ Main Section Styles
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    line-height: 26px;
 }
 
 .feature-img-container {
@@ -202,12 +205,14 @@ Main Section Styles
 
 }
 
+/* Experience Section  */
 .experience-wrap {
     background: #FF900E;
     border-radius: 8px;
-    width: 342px;;
+    width: 342px;
+    ;
     line-height: 2.5em;
-    margin-top: -200px;
+    margin-top: -150px;
     margin-left: 630px;
     position: relative;
     z-index: 1;
@@ -224,4 +229,57 @@ Main Section Styles
 .experience-wrap .experience {
     font-weight: 500;
     font-size: 25px;
+}
+
+/* Fact Section  */
+.fact-section {
+    margin-top: 130px;
+}
+
+.fact-title-description-wrap {
+    width: 550px;
+}
+
+.fact-section h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.fact-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.fact-card-wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.fact-card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.fact-card img {
+    width: 45.22px;
+    height: 45.22px;
+}
+
+.fact-card h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.fact-card p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
 }
