@@ -1,8 +1,11 @@
+/* Google Font  */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 
 body {
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Utilities  */
 
 * {
     margin: 0;
@@ -16,27 +19,73 @@ Header Section Styles
 .header {
     background: rgba(255, 144, 14, 0.1);
 }
+
 .container {
     width: 1440px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 /* Navbar Section */
 .navbar {
     display: flex;
     justify-content: space-between;
 }
+
 .navbar-item ul {
     display: flex;
     gap: 40px;
 }
+
 .navbar-item ul li {
-list-style-type: none;
+    list-style-type: none;
 }
+
 .navbar-item ul li a {
-text-decoration: none;
-font-weight: 500;
-font-size: 18px;
-color: #424242;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* Hero Section  */
+.hero-section {
+    width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 30px;
+}
+
+.hero-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+}
+
+.btn a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.banner-image img {
+    width: 100%;
+    margin-top: 50px;
+
 }
